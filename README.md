@@ -44,7 +44,7 @@ Software testing is the activity to check whether the actual results match the e
   7. Submit the google drive link, do not restrict user, set link to everyone with link.
   8. This will teach you how to classify bugs under testing types and the kind of defects to look out for in an application.
 
-[!https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing)
+[https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing?raw=true)
 
 1. What is testing technique, discuss the type of testing techniques and give 2 examples of each
 
