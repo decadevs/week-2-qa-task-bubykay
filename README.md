@@ -1,6 +1,6 @@
 ## **1. What is test coverage and why is it very important in testing?**
 
-What is the difference between the testing technique anCoverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
+Coverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
 
    #### 1. **Function coverage**
 
@@ -33,7 +33,7 @@ Software testing is the activity to check whether the actual results match the e
 
 
 
-Below are categories of software testing and a few of types of Testing under them;
+Below are categories of software testing and a few types of Testing under them;
 * **Functional Testing**
 Functional testing of a system involves tests that evaluate functions that the system should perform. Functional requirements may be described in work products such as business requirements specifications, epics, user stories, use cases, or functional specifications, or they may be undocumented. The functions are “what” the system should do.
 Functional tests should be performed at all test levels (e.g., tests for components may be based on a component specification), though the focus is different at each level .
@@ -75,10 +75,11 @@ Non-functional test design and execution may involve special skills or knowledge
 2. **Blackbox Testing Technique (Specification-based Technique)**
     This does not use any information regarding the international structure of the component or system to be tested.
 3. **Experienced- based technique**
+    This are testing performed performed by on tester experience.
 
 #### **Types of Testing Techniques**
 
-#### 1. **Error Guessing**
+#### 1. **Error Guessing (Experience Based Testing)**
 
 Error guessing is a technique is an experience-based test technique used to anticipate the occurrence of errors, defects, and failures, based on the tester&#39;s knowledge, including:
 
