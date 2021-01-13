@@ -1,22 +1,22 @@
 WEEK TWO TASK
 
-1. **What is test coverage and why is it very important in testing?**
+## **1. What is test coverage and why is it very important in testing?**
 
 What is the difference between the testing technique anCoverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
 
-    1. **Function coverage**
+   ### 1. **Function coverage**
 
 Functional coverage is the extent to which some functionality has been exercised by tests, and is expressed as a percentage of the type(s) of element being covered. For example, using traceability between tests and functional requirements, the percentage of these requirements which are addressed by testing can be calculated, potentially identifying coverage gaps.
 
-    1. **Statement Coverage**
+### **Statement Coverage**
 
 This indicates the fraction of code statements of been tested at least once.
 
-    1. **Branch coverage**
+   ###  **Branch coverage**
 
 In an if … statement, branch coverage indicates how thorough both if conditions have been tested likewise if the condition is false i.e. have both the true and false path been tested, how thorough have then been tested?
 
-**Why coverage is important in testing**
+### **Why coverage is important in testing**
 
 1. It can assure the quality of the test
 2. It can help identify what portions of the code were actually touched for the release or fix
@@ -27,11 +27,11 @@ In an if … statement, branch coverage indicates how thorough both if condition
 7. It can determine all the decision points and paths used in the application, which allows you to increase test coverage
 8. Gaps in requirements, test cases and defects at the unit level and code level can be found in an easy way
 
-1. What is the difference between the testing technique and types of testing?
+## 2. What is the difference between the testing technique and types of testing?
 
 Software testing is the activity to check whether the actual results match the expected results and to ensure that the software is defect free while Software Testing Techniques help you design better test cases
 
-1. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
+### 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
 
 1. Create a folder in google drive with name Testing Types Task
 
@@ -44,7 +44,7 @@ Software testing is the activity to check whether the actual results match the e
   7. Submit the google drive link, do not restrict user, set link to everyone with link.
   8. This will teach you how to classify bugs under testing types and the kind of defects to look out for in an application.
 
-[https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing)
+[!https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing)
 
 1. What is testing technique, discuss the type of testing techniques and give 2 examples of each
 
