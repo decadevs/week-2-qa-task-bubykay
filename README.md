@@ -1,5 +1,3 @@
-WEEK TWO TASK
-
 ## **1. What is test coverage and why is it very important in testing?**
 
 What is the difference between the testing technique anCoverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
@@ -111,7 +109,7 @@ Equivalence partitioning divides data into partitions (also known as equivalence
 To achieve 100% coverage with this technique, test cases must cover all identified partitions (including invalid partitions) by using a minimum of one value from each partition. Coverage is measured as the number of equivalence partitions tested by at least one value, divided by the total number of identifiedequivalence partitions, normally expressed as a percentage. Equivalence partitioning is applicable at all test levels.
 
 ## **6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.**
-  1. Image link - [https://drive.google.com/file/d/1\_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing](https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing)
+  1. Image link - ![https://drive.google.com/file/d/1\_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing](https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing)
   2. Requirements
     1. Email must be a valid email format
     2. Email characters cannot be less that 15 characters but not greater than 200 characters
@@ -146,12 +144,13 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
 15. Login in with a valid registered email address and password: : the form should login otherwise, there is a bug
 
 ## **7. Design a decision table for Upload image Scenario.**
-  1. Requirements
-    1. you can upload only .jpeg format,
-    2. file size must be less than 32kb,
-    3. Resolution must be only 137\*177
+#### Requirements
+   1. you can upload only .jpeg format
+   2. file size must be less than 32kb
+   3. Resolution must be only 137\*177
 
-    ![https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
+![image](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
+
 
 
 ## 8. Implement a Graph based testing technique for this scenario
