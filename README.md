@@ -151,7 +151,7 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
     2. file size must be less than 32kb,
     3. Resolution must be only 137\*177
 
-    ![](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
+    ![https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
 
 
 ## 8. Implement a Graph based testing technique for this scenario
