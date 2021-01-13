@@ -31,26 +31,18 @@ In an if … statement, branch coverage indicates how thorough both if condition
 
 Software testing is the activity to check whether the actual results match the expected results and to ensure that the software is defect free while Software Testing Techniques help you design better test cases
 
-### 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
+## 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
 
-1. Create a folder in google drive with name Testing Types Task
+## 4. Create a folder in google drive with name Testing Types Task
 
-  1. Inside the folder, create more folders with name of the type of bug that can be found on the site
-  2. Go to link AcademyBugs.com
-  3. Click find bugs.
-  4. On the site, there are only 25 bugs. You will perform exploratory testing where you will test every functionality on the site and find all defects (features that do not work as expected).
-  5. For each bug you find take a screen shot of the bug report and save it under the related folder.
-  6. When done, take a screen shot of bug number found and save to folder.
-  7. Submit the google drive link, do not restrict user, set link to everyone with link.
-  8. This will teach you how to classify bugs under testing types and the kind of defects to look out for in an application.
 
 [https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing?raw=true)
 
-1. What is testing technique, discuss the type of testing techniques and give 2 examples of each
+## **5. What is testing technique, discuss the type of testing techniques and give 2 examples of each**
 
-**Types of Testing Techniques**
+### **Types of Testing Techniques**
 
-1. **Error Guessing**
+### 1. **Error Guessing**
 
 Error guessing is a technique is an experience-based test technique used to anticipate the occurrence of errors, defects, and failures, based on the tester&#39;s knowledge, including:
 
@@ -60,7 +52,7 @@ Error guessing is a technique is an experience-based test technique used to anti
 
 A methodical approach to the error guessing technique is to create a list of possible errors, defects, and failures, and design tests that will expose those failures and the defects that caused them. These error, defect, failure lists can be built based on experience, defect and failure data, or from common knowledge about why software fails.
 
-1. **Boundary Value Analysis**
+### 2. **Boundary Value Analysis**
 
 Boundary value analysis (BVA) is an extension of equivalence partitioning, but can only be used when the partition is ordered, consisting of numeric or sequential data. The minimum and maximum values (or first and last values) of a partition are its boundary values.
 
@@ -72,7 +64,7 @@ Behavior at the boundaries of equivalence partitions is more likely to be incorr
 
 Boundary value analysis can be applied at all test levels. This technique is generally used to test requirements that call for a range of numbers (including dates and times). Boundary coverage for a partition is measured as the number of boundary values tested, divided by the total number of identified boundary test values, normally expressed as a percentage.
 
-1. **Decision Table Techniques**
+### 3. **Decision Table Techniques**
 
 Decision tables are a good way to record complex business rules that a system must implement. When creating decision tables, the tester identifies conditions (often inputs) and the resulting actions (often outputs) of the system. These form the rows of the table, usually with the conditions at the top and the actions at the bottom. Each column corresponds to a decision rule that defines a unique combination of conditions which results in the execution of the actions associated with that rule. The values of the conditions and actions are usually shown as Boolean values (true or false) or discrete values (e.g., red, green, blue), but can also be numbers or ranges of numbers. These different types of conditions and actions might be found together in the same table.
 
@@ -93,7 +85,7 @@ The common minimum coverage standard for decision table testing is to have at le
 
 The strength of decision table testing is that it helps to identify all the important combinations of conditions, some of which might otherwise be overlooked. It also helps in finding any gaps in the requirements. It may be applied to all situations in which the behavior of the software depends on a combination of conditions, at any test level.
 
-1. **State Transition Testing**
+### 4. **State Transition Testing**
 
 Components or systems may respond differently to an event depending on current conditions or previous history (e.g., the events that have occurred since the system was initialized). The previous history can be summarized using the concept of states. A state transition diagram shows the possible software states, as well as how the software enters, exits, and transitions between states. A transition is initiated by an event (e.g., user input of a value into a field). The event results in a transition. The same event can result in two or more different transitions from the same state. The state change may result in the software taking an action (e.g., outputting a calculation or error message).
 
@@ -105,7 +97,7 @@ State transition testing is used for menu-based applications and is widely used 
 
 Coverage is commonly measured as the number of identified states or transitions tested, divided by the total number of identified states or transitions in the test object, normally expressed as a percentage. For more information on coverage criteria for state transition testing.
 
-1. **Equivalent Partitioning**
+### 5. **Equivalent Partitioning**
 
 Equivalence partitioning divides data into partitions (also known as equivalence classes) in such a way that all the members of a given partition are expected to be processed in the same way. There are equivalence partitions for both valid and invalid values.
 
@@ -118,7 +110,7 @@ Equivalence partitioning divides data into partitions (also known as equivalence
 
 To achieve 100% coverage with this technique, test cases must cover all identified partitions (including invalid partitions) by using a minimum of one value from each partition. Coverage is measured as the number of equivalence partitions tested by at least one value, divided by the total number of identifiedequivalence partitions, normally expressed as a percentage. Equivalence partitioning is applicable at all test levels.
 
-1. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.
+## **5. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.**
   1. Image link - [https://drive.google.com/file/d/1\_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing](https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing)
   2. Requirements
     1. Email must be a valid email format
@@ -129,13 +121,13 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
     6. Only a registered user can login
     7. All invalid inputs should throw the correct error, tester should suggest the type of error, while valid input should show the correct output.
 
-The following are testing techniques that can be used and their implementations
+### The following are testing techniques that can be used and their implementations
 
       1. **Error Guessing**
       2. **Boundary Value Analysis**
       3. **Decision Table Technique**
 
-**ERROR GUESSING IMPLEMENTATION**
+### **ERROR GUESSING IMPLEMENTATION**
 
 1. Enter an invalid Email format: login form should throw an error message otherwise, there is a bug
 2. Enter email with 9 characters: login form should throw an error message otherwise, there is a bug
