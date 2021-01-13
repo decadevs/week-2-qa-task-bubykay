@@ -110,7 +110,7 @@ Equivalence partitioning divides data into partitions (also known as equivalence
 
 To achieve 100% coverage with this technique, test cases must cover all identified partitions (including invalid partitions) by using a minimum of one value from each partition. Coverage is measured as the number of equivalence partitions tested by at least one value, divided by the total number of identifiedequivalence partitions, normally expressed as a percentage. Equivalence partitioning is applicable at all test levels.
 
-## **5. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.**
+## **6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.**
   1. Image link - [https://drive.google.com/file/d/1\_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing](https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing)
   2. Requirements
     1. Email must be a valid email format
@@ -144,21 +144,21 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
 13. Enter email and password: the login button should be enabled otherwise there is a bug
 14. Login with an unregistered email address and password: the form should not login otherwise, there is a bug
 15. Login in with a valid registered email address and password: : the form should login otherwise, there is a bug
-16.
 
-1. Design a decision table for Upload image Scenario.
+## **7. Design a decision table for Upload image Scenario.**
   1. Requirements
     1. you can upload only .jpeg format,
     2. file size must be less than 32kb,
     3. Resolution must be only 137\*177
 
-![](RackMultipart20210113-4-va2g8s_html_e3d025d0e2a18ff1.png)
+    ![](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
 
-1. Implement a Graph based testing technique for this scenario
+
+## 8. Implement a Graph based testing technique for this scenario
   1. An employee who decides to apply for leave, submits application form to HR, HR verifies eligibility, if not eligible application is rejected, if eligible, Manager ensures feasibility, if feasible, application is rejected else if feasible, application is approved
 
-1. Sometimes a tester is not given all the details and has to come up with a solid logic with given requirements.
+## 9. Sometimes a tester is not given all the details and has to come up with a solid logic with given requirements.
   1. Implement a Graph based testing techniques for an atm machine that blocks the user from logging in after 3 wrong trials
 
-1. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
+## 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
   1. what testing technique would you apply and give a detailed description of what you will do when applying this technique.
