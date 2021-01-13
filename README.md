@@ -2,19 +2,19 @@
 
 What is the difference between the testing technique anCoverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
 
-   ### 1. **Function coverage**
+   #### 1. **Function coverage**
 
 Functional coverage is the extent to which some functionality has been exercised by tests, and is expressed as a percentage of the type(s) of element being covered. For example, using traceability between tests and functional requirements, the percentage of these requirements which are addressed by testing can be calculated, potentially identifying coverage gaps.
 
-### **Statement Coverage**
+#### **Statement Coverage**
 
 This indicates the fraction of code statements of been tested at least once.
 
-   ###  **Branch coverage**
+   ####  **Branch coverage**
 
 In an if … statement, branch coverage indicates how thorough both if conditions have been tested likewise if the condition is false i.e. have both the true and false path been tested, how thorough have then been tested?
 
-### **Why coverage is important in testing**
+#### **Why coverage is important in testing**
 
 1. It can assure the quality of the test
 2. It can help identify what portions of the code were actually touched for the release or fix
@@ -31,6 +31,29 @@ Software testing is the activity to check whether the actual results match the e
 
 ## 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
 
+
+
+Below are categories of software and a few of types of Testing under them;
+* **Functional Testing**
+    * **Unit Testing**: Under this type of testing, individual unit of a software isolated and tested to validate that it performs as expected. It is majorly done during development phase e.g. testing a method, function, procedure or module. Unit test could be done manually or automated
+    * **Integration Testing**: Testing when software modules are integrated logically and tested as a group. The purpose of integration testing is to expose defects in the interaction between these modules when they are integrated. It focuses on checking data communication amongst the integrated modules.
+    * **User Acceptance Testing**: Also known as end-user testing is testing the software by the client to determine wether it can be accepted or not. It is the final testing performed one the functional, system, and regression testing are completed
+* **Non-Functional Testing**
+    * **Performance Testing**: This is a type of testing the evaluates the speed, responsiveness and stability of the software under workload. Performance testing can include quantitative tests done in a lab or production environment. Performance testing is used as a diagnostic aid to locate communication bottlenecks within a software units.
+    * **Endurance Testing**: This is a testing scenario where a software is tested under high load extended over a significant amount of time to evaluate the behaviour of software application under prolonged use. It is usually performed at the last stage of the performance run cycle. This may include applying external load such as internet traffics or user actions. Difference between endurance testing as load testing is the long process required of endurance testing that may even last up to a year. It Ould be termed as “capacity testing”
+    * **Load Testing**: It’s used as means to measure, monitor observe performance metrics and other requirements of a software under test.
+    * **Volume**
+    * **Scalability**
+* **Maintenance**
+    * **Regression**: this is a type of testing done to confirm that a recent code change has not adversely affected existing features of the the software under test. This testing is done to make sure that new code changes should not have side effects on the existing functionalities
+    * **Maintenance**: Once deployed to production environments, software and systems need to be maintained. Changes of various sorts are almost inevitable in delivered software and systems, either to fix defects discovered in operational use, to add new functionality, or to delete or alter already-delivered functionality. Maintenance is also needed to preserve or improve non-functional quality characteristics of the component or system over its lifetime, especially performance efficiency, compatibility, reliability, security, , and portability.
+    When any changes are made as part of maintenance, maintenance testing should be performed, both to evaluate the success with which the changes were made and to check for possible side-effects (e.g., regressions) in parts of the system that remain unchanged (which is usually most of the system). Maintenance can involve planned releases and unplanned releases (hot fixes).
+    A maintenance release may require maintenance testing at multiple test levels, using various test types, based on its scope. The scope of maintenance testing depends on:
+        * The degree of risk of the change, for example, the degree to which the changed area of software communicates with other components or systems
+        *  The size of the existing system
+        *  The size of the change
+
+
 ## 4. Create a folder in google drive with name Testing Types Task
 
 
@@ -38,16 +61,16 @@ Software testing is the activity to check whether the actual results match the e
 
 ## **5. What is testing technique, discuss the type of testing techniques and give 2 examples of each**
 
-### There are three categories of testing techniques;
+#### There are three categories of testing techniques;
 1. **Whitebox Testing Technique (structure-based technique)**
     These are are based on an analysis of the structure of the component of the system
 2. **Blackbox Testing Technique (Specification-based Technique)**
     This does not use any information regarding the international structure of the component or system to be tested.
 3. **Experienced- based technique**
 
-### **Types of Testing Techniques**
+#### **Types of Testing Techniques**
 
-### 1. **Error Guessing**
+#### 1. **Error Guessing**
 
 Error guessing is a technique is an experience-based test technique used to anticipate the occurrence of errors, defects, and failures, based on the tester&#39;s knowledge, including:
 
@@ -57,7 +80,7 @@ Error guessing is a technique is an experience-based test technique used to anti
 
 A methodical approach to the error guessing technique is to create a list of possible errors, defects, and failures, and design tests that will expose those failures and the defects that caused them. These error, defect, failure lists can be built based on experience, defect and failure data, or from common knowledge about why software fails.
 
-### 2. **Boundary Value Analysis (Blackbox Technique)**
+#### 2. **Boundary Value Analysis (Blackbox Technique)**
 
 Boundary value analysis (BVA) is an extension of equivalence partitioning, but can only be used when the partition is ordered, consisting of numeric or sequential data. The minimum and maximum values (or first and last values) of a partition are its boundary values.
 
@@ -69,7 +92,7 @@ Behavior at the boundaries of equivalence partitions is more likely to be incorr
 
 Boundary value analysis can be applied at all test levels. This technique is generally used to test requirements that call for a range of numbers (including dates and times). Boundary coverage for a partition is measured as the number of boundary values tested, divided by the total number of identified boundary test values, normally expressed as a percentage.
 
-### 3. **Decision Table Techniques (Blackbox Technique)**
+#### 3. **Decision Table Techniques (Blackbox Technique)**
 
 Decision tables are a good way to record complex business rules that a system must implement. When creating decision tables, the tester identifies conditions (often inputs) and the resulting actions (often outputs) of the system. These form the rows of the table, usually with the conditions at the top and the actions at the bottom. Each column corresponds to a decision rule that defines a unique combination of conditions which results in the execution of the actions associated with that rule. The values of the conditions and actions are usually shown as Boolean values (true or false) or discrete values (e.g., red, green, blue), but can also be numbers or ranges of numbers. These different types of conditions and actions might be found together in the same table.
 
@@ -90,7 +113,7 @@ The common minimum coverage standard for decision table testing is to have at le
 
 The strength of decision table testing is that it helps to identify all the important combinations of conditions, some of which might otherwise be overlooked. It also helps in finding any gaps in the requirements. It may be applied to all situations in which the behavior of the software depends on a combination of conditions, at any test level.
 
-### 4. **State Transition Testing (Blacbox Technique)**
+#### 4. **State Transition Testing (Blacbox Technique)**
 
 Components or systems may respond differently to an event depending on current conditions or previous history (e.g., the events that have occurred since the system was initialized). The previous history can be summarized using the concept of states. A state transition diagram shows the possible software states, as well as how the software enters, exits, and transitions between states. A transition is initiated by an event (e.g., user input of a value into a field). The event results in a transition. The same event can result in two or more different transitions from the same state. The state change may result in the software taking an action (e.g., outputting a calculation or error message).
 
@@ -102,7 +125,7 @@ State transition testing is used for menu-based applications and is widely used 
 
 Coverage is commonly measured as the number of identified states or transitions tested, divided by the total number of identified states or transitions in the test object, normally expressed as a percentage. For more information on coverage criteria for state transition testing.
 
-### 5. **Equivalent Partitioning (Blackbox Testing Technique)**
+#### 5. **Equivalent Partitioning (Blackbox Testing Technique)**
 
 Equivalence partitioning divides data into partitions (also known as equivalence classes) in such a way that all the members of a given partition are expected to be processed in the same way. There are equivalence partitions for both valid and invalid values.
 
@@ -126,13 +149,13 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
     6. Only a registered user can login
     7. All invalid inputs should throw the correct error, tester should suggest the type of error, while valid input should show the correct output.
 
-### The following are testing techniques that can be used and their implementations
+#### The following are testing techniques that can be used and their implementations
 
       1. **Error Guessing**
       2. **Boundary Value Analysis**
       3. **Decision Table Technique**
 
-### **ERROR GUESSING IMPLEMENTATION**
+#### **ERROR GUESSING IMPLEMENTATION**
 
 1. Enter an invalid Email format: login form should throw an error message otherwise, there is a bug
 2. Enter email with 9 characters: login form should throw an error message otherwise, there is a bug
@@ -151,7 +174,7 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
 15. Login in with a valid registered email address and password: : the form should login otherwise, there is a bug
 
 ## **7. Design a decision table for Upload image Scenario.**
-#### Requirements
+##### Requirements
    1. you can upload only .jpeg format
    2. file size must be less than 32kb
    3. Resolution must be only 137\*177
@@ -171,4 +194,14 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
   ATM Process Image - [https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing](https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing)
 
 ## 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
-  1. what testing technique would you apply and give a detailed description of what you will do when applying this technique.
+  what testing technique would you apply and give a detailed description of what you will do when applying this technique.
+
+  #### Error Guessing Technique
+  1.	Input an invalid email characters: an error message should be thrown otherwise there is a bug
+2.	Reply an email: Email should send otherwise, there is a bug
+3.	Send mail to a valid alternate email account: email should land otherwise, there is a bug
+4.	Send email using bcc, cc and ‘to’ fields using different valid emails in the fields: emails should land otherwise, there is a bug
+5.	Attach an image file and send to a valid email address: attachment should land otherwise, there is a bug
+6.	Attach a file and send to a valid email address: attachment should land otherwise there is a bug
+7.	Attach an image and a file and send to a valid email: attachments should land otherwise there is a bug
+8.	Send mail mass email to maximum numbers of email in the specification: email should send otherwise, there is a bug
