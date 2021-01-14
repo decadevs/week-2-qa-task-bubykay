@@ -2,7 +2,7 @@
 
 Coverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
 
-   #### 1. **Function coverage**
+   ####  **Function coverage**
 
 Functional coverage is the extent to which some functionality has been exercised by tests, and is expressed as a percentage of the type(s) of element being covered. For example, using traceability between tests and functional requirements, the percentage of these requirements which are addressed by testing can be calculated, potentially identifying coverage gaps.
 
@@ -43,7 +43,7 @@ Functional test design and execution may involve special skills or knowledge, su
 
     * **Unit Testing**: Under this type of testing, individual unit of a software isolated and tested to validate that it performs as expected. It is majorly done during development phase e.g. testing a method, function, procedure or module. Unit test could be done manually or automated
     * **Integration Testing**: Testing when software modules are integrated logically and tested as a group. The purpose of integration testing is to expose defects in the interaction between these modules when they are integrated. It focuses on checking data communication amongst the integrated modules.
-    * **User Acceptance Testing**: Also known as end-user testing is testing the software by the client to determine wether it can be accepted or not. It is the final testing performed one the functional, system, and regression testing are completed
+    * **User Acceptance Testing**: Also known as end-user testing is testing the software by the client to determine wether it can be accepted or not. It is the final testing performed once the functional, system, and regression testing are completed
 * **Non-Functional Testing**
 Non-functional testing of a system evaluates characteristics of systems and software such as usability, performance efficiency or security. Non-functional testing is the testing of “how well” the system behaves.
 Contrary to common misperceptions, non-functional testing can and often should be performed at all test levels, and done as early as possible. The late discovery of non-functional defects can be extremely dangerous to the success of a project.
@@ -75,7 +75,7 @@ Non-functional test design and execution may involve special skills or knowledge
 2. **Blackbox Testing Technique (Specification-based Technique)**
     This does not use any information regarding the international structure of the component or system to be tested.
 3. **Experienced- based technique**
-    This are testing performed performed by on tester experience.
+    This are testing performed based on tester's experience.
 
 #### **Types of Testing Techniques**
 
