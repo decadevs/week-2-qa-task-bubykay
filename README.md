@@ -1,6 +1,6 @@
 ## **1. What is test coverage and why is it very important in testing?**
 
-Coverage is a metric in software testing for how far/thorough software testing is. Below are coverage types;
+Coverage is a metric in software testing for how far/thorough software testing is. Below are coverage types; 8/10
 
    ####  **Function coverage**
 
@@ -25,13 +25,11 @@ In an if … statement, branch coverage indicates how thorough both if condition
 7. It can determine all the decision points and paths used in the application, which allows you to increase test coverage
 8. Gaps in requirements, test cases and defects at the unit level and code level can be found in an easy way
 
-## 2. What is the difference between the testing technique and types of testing?
+## 2. What is the difference between the testing technique and types of testing? 5/10
 
 Software testing is the activity to check whether the actual results match the expected results and to ensure that the software is defect free while Software Testing Techniques has a purpose of identifying test conditon, test cases and test data to help you perform better software tests.
 
-## 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing.
-
-
+## 3. Discuss each type of testing and discuss the sub-testing types associated with each type of testing. 7/10 (Incomplete list of sub tests, nothing on security performance testing list is not complete)
 
 Below are categories of software testing and a few types of Testing under them;
 * **Functional Testing**
@@ -52,7 +50,7 @@ The thoroughness of non-functional testing can be measured through non-functiona
 Non-functional test design and execution may involve special skills or knowledge, such as knowledge of the inherent weaknesses of a design or technology (e.g., security vulnerabilities associated with particular programming languages) or the particular user base (e.g., the personas of users of healthcare facility management systems).
     * **Performance Testing**: This is a type of testing the evaluates the speed, responsiveness and stability of the software under workload. Performance testing can include quantitative tests done in a lab or production environment. Performance testing is used as a diagnostic aid to locate communication bottlenecks within a software units.
     * **Endurance Testing**: This is a testing scenario where a software is tested under high load extended over a significant amount of time to evaluate the behaviour of software application under prolonged use. It is usually performed at the last stage of the performance run cycle. This may include applying external load such as internet traffics or user actions. Difference between endurance testing as load testing is the long process required of endurance testing that may even last up to a year. It Ould be termed as “capacity testing”
-    * **Load Testing**: It’s used as means to measure, monitor observe performance metrics and other requirements of a software under test.
+    * **Load Testing**: It’s used as means to measure, monitor observe performance metrics and other requirements of a software under test. ??????
     * **Regression**: this is a type of testing done to confirm that a recent code change has not adversely affected existing features of the the software under test. This testing is done to make sure that new code changes should not have side effects on the existing functionalities
     * **Maintenance**: Once deployed to production environments, software and systems need to be maintained. Changes of various sorts are almost inevitable in delivered software and systems, either to fix defects discovered in operational use, to add new functionality, or to delete or alter already-delivered functionality. Maintenance is also needed to preserve or improve non-functional quality characteristics of the component or system over its lifetime, especially performance efficiency, compatibility, reliability, security, , and portability.
     When any changes are made as part of maintenance, maintenance testing should be performed, both to evaluate the success with which the changes were made and to check for possible side-effects (e.g., regressions) in parts of the system that remain unchanged (which is usually most of the system). Maintenance can involve planned releases and unplanned releases (hot fixes).
@@ -62,12 +60,12 @@ Non-functional test design and execution may involve special skills or knowledge
         *  The size of the change
 
 
-## 4. Create a folder in google drive with name Testing Types Task
+## 4. Create a folder in google drive with name Testing Types Task 9/10
 
 
 [https://drive.google.com/drive/folders/1y9lZMuiGT\_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing](https://drive.google.com/drive/folders/1y9lZMuiGT_XMCbMYTAZOQjDN4JC5w6Q6?usp=sharing?raw=true)
 
-## **5. What is testing technique, discuss the type of testing techniques and give 2 examples of each**
+## **5. What is testing technique, discuss the type of testing techniques and give 2 examples of each** (SL -you didn't define testing techniques) 7/10
 
 #### There are three categories of testing techniques;
 1. **Whitebox Testing Technique (structure-based technique)**
@@ -122,7 +120,7 @@ The common minimum coverage standard for decision table testing is to have at le
 
 The strength of decision table testing is that it helps to identify all the important combinations of conditions, some of which might otherwise be overlooked. It also helps in finding any gaps in the requirements. It may be applied to all situations in which the behavior of the software depends on a combination of conditions, at any test level.
 
-#### 4. **State Transition Testing (Blacbox Technique)**
+#### 4. **State Transition Testing (Blacbox Technique)** 
 
 Components or systems may respond differently to an event depending on current conditions or previous history (e.g., the events that have occurred since the system was initialized). The previous history can be summarized using the concept of states. A state transition diagram shows the possible software states, as well as how the software enters, exits, and transitions between states. A transition is initiated by an event (e.g., user input of a value into a field). The event results in a transition. The same event can result in two or more different transitions from the same state. The state change may result in the software taking an action (e.g., outputting a calculation or error message).
 
@@ -147,7 +145,7 @@ Equivalence partitioning divides data into partitions (also known as equivalence
 
 To achieve 100% coverage with this technique, test cases must cover all identified partitions (including invalid partitions) by using a minimum of one value from each partition. Coverage is measured as the number of equivalence partitions tested by at least one value, divided by the total number of identifiedequivalence partitions, normally expressed as a percentage. Equivalence partitioning is applicable at all test levels.
 
-## **6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.**
+## **6. Using the login form specification requirements, identify all testing techniques that can be used to design test case for this login form. Also Implement the identified techniques and document your solution.** (sl- Incomplete solution, Error guessing implementation is excellent) 5/10
   1. Image link - ![https://drive.google.com/file/d/1\_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing] (https://drive.google.com/file/d/1_3kr18fUMzPnYDybKCabDJ0gZ6SrVInk/view?usp=sharing)
   2. Requirements
     1. Email must be a valid email format
@@ -188,24 +186,24 @@ To achieve 100% coverage with this technique, test cases must cover all identifi
    2. file size must be less than 32kb
    3. Resolution must be only 137\*177
 
-[https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing)
+[https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing](https://drive.google.com/file/d/1hQKKkmMI8ORjctJQ_XbkVvQuicdXroDO/view?usp=sharing) 10/10
 
 
 
 ## 8. Implement a Graph based testing technique for this scenario
    An employee who decides to apply for leave, submits application form to HR, HR verifies eligibility, if not eligible application is rejected, if eligible, Manager ensures feasibility, if feasible, application is rejected else if feasible, application is approved
 
-   Leave Application - [https://drive.google.com/file/d/1w9RLRJeuEqoOghXhn8tp_NjheBoCZHYf/view?usp=sharing](https://drive.google.com/file/d/1w9RLRJeuEqoOghXhn8tp_NjheBoCZHYf/view?usp=sharing)
+   Leave Application - [https://drive.google.com/file/d/1w9RLRJeuEqoOghXhn8tp_NjheBoCZHYf/view?usp=sharing](https://drive.google.com/file/d/1w9RLRJeuEqoOghXhn8tp_NjheBoCZHYf/view?usp=sharing)10/10
 
 ## 9. Sometimes a tester is not given all the details and has to come up with a solid logic with given requirements.
   Implement a Graph based testing techniques for an atm machine that blocks the user from logging in after 3 wrong trials
 
-  ATM Process Image - [https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing](https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing)
+  ATM Process Image - [https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing](https://drive.google.com/file/d/1uSC7CEqEQZTx_MkJHcFYLcEzo_qpRKmY/view?usp=sharing)10/10
 
 ## 10. An organization gives you a new mailing application they just designed to identify its strengths and weaknesses with respect to the standard in the market.
   what testing technique would you apply and give a detailed description of what you will do when applying this technique.
 
-  #### Error Guessing Technique
+  #### Error Guessing Technique (10/10, Awesome)
   1.	Input an invalid email characters: an error message should be thrown otherwise there is a bug
 2.	Reply an email: Email should send otherwise, there is a bug
 3.	Send mail to a valid alternate email account: email should land otherwise, there is a bug
